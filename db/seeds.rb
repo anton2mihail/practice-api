@@ -11,4 +11,4 @@ College.create!([{name: "University of Western Ontario"}, {name: "University of 
 User.create!([{first_name: "Luke", last_name: "Sky", phone_number: "12222222222", college_number: 1},{first_name: "Lando", last_name: "Nor", phone_number: "2222222222", college_number: 1},{first_name: "Jarada", last_name: "Hutt", phone_number: "2222222222", college_number: 2}])
 
 
-Exams.create!([{college_id: 1},{college_id: 2}])
+Exam.create!([{college_id: 1},{college_id: 2}])
